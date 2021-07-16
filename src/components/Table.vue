@@ -92,11 +92,13 @@ export default {
           noDataAvailable: 'No data',
         },
       },
-      updateCheckedRows: (rowsKey) => {
-        // do your checkbox click event
-        console.log(rowsKey)
-      },
     }
+  },
+  methods: {
+    updateCheckedRows: function (rowsKey) {
+      // do your checkbox click event
+      console.log(rowsKey)
+    },
   },
 }
 </script>
